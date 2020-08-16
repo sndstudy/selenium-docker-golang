@@ -1,0 +1,9 @@
+version: "3.7"
+services:
+  selenium-golang:
+    build:
+      context: .
+      dockerfile: ./dockerfile
+    volumes:
+      - .:/work/src
+    tty: true
