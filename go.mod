@@ -1,4 +1,4 @@
-module snd/selenium
+module selenium-docker-golang
 
 go 1.14
 
